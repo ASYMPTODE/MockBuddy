@@ -10,8 +10,9 @@ const monaSans = Mona_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "PrepWise",
-  description: "An AI-powered platform for preparing for mock interviews",
+  title: "Mock Gorilla - AI-powered interview",
+  description:
+    "Real-time AI-powered mock interview platform built with Next.js, Gemini, and Vapi AI. Practice interviews with smart roleplay, voice support, and personalized feedback—prep like a beast.",
 };
 
 export default function RootLayout({

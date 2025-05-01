@@ -152,7 +152,7 @@ const Agent = ({
         <div className="card-interviewer">
           <div className="avatar">
             <Image
-              src="/ai-avatar.png"
+              src="/ai-avatar.webp"
               alt="profile-image"
               width={65}
               height={54}
@@ -160,14 +160,14 @@ const Agent = ({
             />
             {isSpeaking && <span className="animate-speak" />}
           </div>
-          <h3>AI Interviewer</h3>
+          <h3>MockGorilla</h3>
         </div>
 
         {/* User Profile Card */}
         <div className="card-border">
           <div className="card-content">
             <Image
-              src="/user-avatar.png"
+              src="/profile.svg"
               alt="profile-image"
               width={539}
               height={539}

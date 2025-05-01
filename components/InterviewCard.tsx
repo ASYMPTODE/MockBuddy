@@ -55,9 +55,9 @@ const InterviewCard = async ({
           <Image
             src={getRandomInterviewCover()}
             alt="cover-image"
-            width={90}
-            height={90}
-            className="rounded-full object-fit size-[90px]"
+            width={60}
+            height={60}
+            className="rounded-full object-fit size-[60px]"
           />
 
           {/* Interview Role */}
