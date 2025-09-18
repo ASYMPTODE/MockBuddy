@@ -1,117 +1,85 @@
 <div align="center">
   <br />
-    <a href="https://www.youtube.com/watch?v=8GK8R77Bd7g" target="_blank">
-      <img src="https://github.com/user-attachments/assets/1c0131c7-9f2d-4e3b-b47c-9679e76d8f9a" alt="Project Banner">
-    </a>
+      <img src="https://github.com/user-attachments/assets/1c0131c7-9f2d-4e3b-b47c-9679e76d8f9a" alt="MockBuddy Project Banner">
   <br />
   
   <div>
-    <img src="https://img.shields.io/badge/-Next.JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=black" alt="next.js" />
-    <img src="https://img.shields.io/badge/-Vapi-white?style=for-the-badge&color=5dfeca" alt="vapi" />
-    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
-    <img src="https://img.shields.io/badge/-Firebase-black?style=for-the-badge&logoColor=white&logo=firebase&color=DD2C00" alt="firebase" />
+    <img src="https://img.shields.io/badge/-Next.JS-black?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="next.js" />
+    <img src="https://img.shields.io/badge/-Vapi-5dfeca?style=for-the-badge" alt="vapi" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="tailwindcss" />
+    <img src="https://img.shields.io/badge/-Firebase-DD2C00?style=for-the-badge&logo=firebase&logoColor=white" alt="firebase" />
   </div>
 
-  <h3 align="center">MoackMate: A job interview preparation platform powered by Vapi AI Voice agents</h3>
+  <h3 align="center">MockBuddy: Your AI-powered interview preparation platform</h3>
 
 </div>
 
+---
+
 ## 📋 <a name="table">Table of Contents</a>
 
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
+1. 🤖 [Introduction](#introduction)  
+2. ⚙️ [Tech Stack](#tech-stack)  
+3. 🔋 [Features](#features)  
+4. 🤸 [Quick Start](#quick-start)  
+
+---
 
 ## <a name="introduction">🤖 Introduction</a>
 
-Built with Next.js for the user interface and backend logic, Firebase for authentication and data storage, styled with TailwindCSS and using Vapi's voice agents, Prepwise is a website project designed to help you learn integrating AI models with your apps. The platform offers a sleek and modern experience for job interview preparation.
+**MockBuddy** is an interactive platform designed to help job seekers practice interviews in a realistic, AI-driven environment.  
+It uses **Next.js** for the application layer, **Firebase** for secure authentication and storage, and **TailwindCSS** for a modern and responsive UI.  
+
+By integrating **Vapi Voice Agents** and **Google Gemini**, MockBuddy simulates live interviews, generates dynamic questions, and provides instant feedback to improve your confidence and skills.  
+
+---
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
-- Next.js
-- Firebase
-- Tailwind CSS
-- Vapi AI
-- shadcn/ui
-- Google Gemeni
-- Zod
+- **Next.js** – Application framework  
+- **Firebase** – Authentication & data storage  
+- **TailwindCSS** – Styling & responsive design  
+- **Vapi AI** – Voice-based interview simulations  
+- **shadcn/ui** – Reusable UI components  
+- **Google Gemini** – Generative AI responses  
+- **Zod** – Schema validation  
+
+---
 
 ## <a name="features">🔋 Features</a>
 
-👉 **Authentication**: Sign Up and Sign In using password/email authentication handled by Firebase.
+👉 **User Authentication** – Sign up / log in with Firebase authentication.  
 
-👉 **Create Interviews**: Easily generate job interviews with help of Vapi voice assistants and Google Gemini.
+👉 **AI-Powered Interviews** – Generate mock interviews with voice agents and AI prompts.  
 
-👉 **Get feedback from AI**: Take the interview with AI voice agent, and receive instant feedback based on your conversation.
+👉 **Feedback & Transcripts** – Receive instant performance evaluation with transcripts.  
 
-👉 **Modern UI/UX**: A sleek and user-friendly interface designed for a great experience.
+👉 **Interview Page** – Dedicated space to conduct voice-driven mock interviews.  
 
-👉 **Interview Page**: Conduct AI-driven interviews with real-time feedback and detailed transcripts.
+👉 **Dashboard** – Track, manage, and revisit previous sessions.  
 
-👉 **Dashboard**: Manage and track all your interviews with easy navigation.
+👉 **Modern & Responsive Design** – Built for a clean experience across all devices.  
 
-👉 **Responsiveness**: Fully responsive design that works seamlessly across devices.
+…and more, with a scalable and reusable code architecture.  
 
-and many more, including code architecture and reusability
+---
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
-Follow these steps to set up the project locally on your machine.
+Follow these steps to run **MockBuddy** locally:  
 
-**Prerequisites**
+### 🔧 Prerequisites  
 
-Make sure you have the following installed on your machine:
+Ensure you have:  
 
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
+- [Git](https://git-scm.com/)  
+- [Node.js](https://nodejs.org/)  
+- [npm](https://www.npmjs.com/)  
 
-**Cloning the Repository**
+---
 
-```bash
-git clone https://github.com/adrianhajdin/ai_mock_interviews.git
-cd ai_mock_interviews
-```
-
-**Installation**
-
-Install the project dependencies using npm:
+### 📥 Clone the Repository  
 
 ```bash
-npm install
-```
-
-**Set Up Environment Variables**
-
-Create a new file named `.env.local` in the root of your project and add the following content:
-
-```env
-NEXT_PUBLIC_VAPI_WEB_TOKEN=
-NEXT_PUBLIC_VAPI_WORKFLOW_ID=
-
-GOOGLE_GENERATIVE_AI_API_KEY=
-
-NEXT_PUBLIC_BASE_URL=
-
-NEXT_PUBLIC_FIREBASE_API_KEY=
-NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=
-NEXT_PUBLIC_FIREBASE_PROJECT_ID=
-NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=
-NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=
-NEXT_PUBLIC_FIREBASE_APP_ID=
-
-FIREBASE_PROJECT_ID=
-FIREBASE_CLIENT_EMAIL=
-FIREBASE_PRIVATE_KEY=
-```
-
-Replace the placeholder values with your actual **[Firebase](https://firebase.google.com/)**, **[Vapi](https://vapi.ai/?utm_source=youtube&utm_medium=video&utm_campaign=jsmastery_recruitingpractice&utm_content=paid_partner&utm_term=recruitingpractice)** credentials.
-
-**Running the Project**
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+git clone https://github.com/your-username/mockbuddy.git
+cd mockbuddy
